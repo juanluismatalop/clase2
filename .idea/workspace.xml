@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="10/1/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/ArraysExamen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio1/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio1/HelperLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio1/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio1/Tematica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio1/TestLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/Ejercicio3/ArraysExamen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/ExamenPropuestoNavidades/ArraysExamen.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArraysExamen.executor": "Run",
+    "Application.TestLibro.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,13 +55,26 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestLibro">
     <configuration name="ArraysExamen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.ArraysExamen" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.ArraysExamen" />
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.*" />
+          <option name="PATTERN" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLibro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio1.TestLibro" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLibro" />
         <item itemvalue="Application.ArraysExamen" />
       </list>
     </recent_temporary>
@@ -99,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704890161990</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="10/1/24">
+      <option name="closed" value="true" />
+      <created>1704894594364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704894594364</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
