@@ -1,5 +1,6 @@
 package Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteca {
@@ -23,14 +24,37 @@ public class Biblioteca {
         return libros;
     }
 
-    public void setLibros(List<Libro> libros) {
-        this.libros = libros;
-    }
     //CRUD
     public void adquirirLibro(Libro libro){
         libros.add(libro);
     }
+    public boolean elmiminarLibro(String ISBN){for (Libro libro : libros){if(libro.ISBN().equals(ISBN)){return libros.remove(libro);}}return false;}
+    public Libro obtenerLibroPorISBN(String isbn){for (Libro libro : libros)if (libro.ISBN().equals(isbn))return libro;return null;}
+    public List<Libro> obtenerLibrosPorTematcia(Tematica tematica) {
+        List<Libro> librosPorTematica = new ArrayList<>();
+        for (Libro libro : libros) {
+            if (libro.tematica().equals(tematica))
+                librosPorTematica.add(libro);
+        }
+        return librosPorTematica;
+    }
+    /*public int saberEspannolOIngles(String isbn){
+        if(isbn.startsWith("84"))
+            return 1;
+        else if (isbn.startsWith("01")) {
+            return 2;
+        }
+        else return 0;
 
+    }*/
+    public List<Libro> obtenerLibroCastellano(){
+        List<Libro>librosCatellano = new ArrayList<>();
+        for (Libro libro: libros){
+            if (libro.ISBN().startsWith("84"))
+                librosCatellano.add(libro);
+        }
+        return librosCatellano;
+    }
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
