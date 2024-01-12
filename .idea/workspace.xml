@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="11/1/24">
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Enunciado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Tematica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/Ejercicio1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/TestAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Array/EjemploFechas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/TestAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/TestAlumno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,18 +55,19 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnalisisDeDatos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysExamen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestLibro.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnalisisDeDatos.executor": "Run",
+    "Application.ArraysExamen.executor": "Run",
+    "Application.TestAlumno.executor": "Run",
+    "Application.TestLibro.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestAlumno">
     <configuration name="AnalisisDeDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.Array.AnalisisDeDatos" />
@@ -196,5 +193,15 @@
     <MESSAGE value="10/1/24" />
     <MESSAGE value="11/1/24" />
     <option name="LAST_COMMIT_MESSAGE" value="11/1/24" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.IllegalFormatConversionException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

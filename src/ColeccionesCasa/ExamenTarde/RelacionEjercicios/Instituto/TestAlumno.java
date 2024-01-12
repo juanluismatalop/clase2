@@ -1,6 +1,4 @@
-package ColeccionesCasa.ExamenTarde.RelacionEjercicios;
-
-import Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio1.Biblioteca;
+package ColeccionesCasa.ExamenTarde.RelacionEjercicios.Instituto;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -19,8 +17,10 @@ public class TestAlumno {
         alumnos.add(alumno0);
         System.out.println(alumnos);
         Instituto instituto = new Instituto(nombreInstituto, alumnos);
-        String DNI = "26529636X";
-        System.out.println("Borrar libro por DNI " + DNI + ": " + instituto.eliminarPorDNI(DNI));
+        String dni = "26529636X";
+        System.out.println("Borrar alumno por DNI " + dni + ": " + instituto.eliminarPorDNI(dni));
+        System.out.println(alumnos);
+        System.out.println(instituto.mostrarAlumnoDeInstituto(alumnos));
 
 
 

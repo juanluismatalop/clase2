@@ -1,4 +1,4 @@
-package ColeccionesCasa.ExamenTarde.RelacionEjercicios;
+package ColeccionesCasa.ExamenTarde.RelacionEjercicios.Instituto;
 
 import java.util.List;
 
@@ -24,28 +24,28 @@ public class Instituto {
     }
     //CRUD
     //Metodo para añadir un alumno a la lista
-    public void annadirAlumno(Alumno alumno){alumnos.add(alumno);}
+    public boolean annadirAlumno(Alumno alumno){return alumnos.add(alumno);}
     //Eliminar alumno si su dni son iguales
-    public boolean eliminarPorDNI(String DNI){
+    public boolean eliminarPorDNI(String dni){
         for (Alumno alumno: alumnos){
-            if(alumno.DNI().equals(DNI)){
+            if(alumno.dni().equalsIgnoreCase(dni)){
                 return alumnos.remove(alumno);
             }
         }
         return false;
     }
     //Buscar alumno por su dni
-    public Alumno obtenerAlumnoPorDNI(String DNI){
+    public Alumno obtenerAlumnoPorDNI(String dni){
         for (Alumno alumno: alumnos){
-            if (alumno.DNI().equals(DNI))
+            if (alumno.dni().equals(dni))
                 return alumno;
         }
         return null;
     }
     //metodo para mostrar la lista
-    public Alumno mostrarAlumnoDeInstituto(List<Alumno> alumnos){
-        for(int i = 0; i < alumnos.size(); i++){
-            return alumnos.get(i);
+    public List<Alumno> mostrarAlumnoDeInstituto(List<Alumno> alumnos){
+        for(Alumno alumno: alumnos){
+            return alumnos;
         }
         return null;
     }
