@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="11/1/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Array/EjemploFechas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/HelperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Stream/Ejemplo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/TestAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/TestAlumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -61,33 +62,37 @@
     "Application.ArraysExamen.executor": "Run",
     "Application.TestAlumno.executor": "Run",
     "Application.TestLibro.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.HelperTest.validarDNI.executor": "Run",
+    "JUnit.HelperTest.validarPasaporte.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/manana/Juan Luis/Clase2",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestAlumno">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HelperTest.validarIBAN">
     <configuration name="AnalisisDeDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.Array.AnalisisDeDatos" />
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraysExamen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.ArraysExamen" />
-      <module name="Clase2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,25 +113,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLibro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio1.TestLibro" />
+    <configuration name="HelperTest.validarDNI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.ExamenPropuestoNavidades.Ejercicio3.*" />
+          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.HelperTest" />
+      <option name="METHOD_NAME" value="validarDNI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelperTest.validarIBAN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.HelperTest" />
+      <option name="METHOD_NAME" value="validarIBAN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelperTest.validarPasaporte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.HelperTest" />
+      <option name="METHOD_NAME" value="validarPasaporte" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelperTest.validarIBAN" />
+        <item itemvalue="JUnit.HelperTest.validarDNI" />
+        <item itemvalue="JUnit.HelperTest.validarPasaporte" />
         <item itemvalue="Application.TestAlumno" />
         <item itemvalue="Application.AnalisisDeDatos" />
-        <item itemvalue="Application.TestLibro" />
-        <item itemvalue="Application.ArraysExamen" />
       </list>
     </recent_temporary>
   </component>
