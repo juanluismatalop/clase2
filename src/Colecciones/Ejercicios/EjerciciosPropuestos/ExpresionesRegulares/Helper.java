@@ -16,6 +16,15 @@ public class Helper {
     public static Boolean validarIBAN (String iban){
         if (iban == null)
             return null;
-        return iban.toLowerCase().matches("es[0-9]{2}[ - ]?[0-9]{18}");
+        String regrexIban1 = "es[0-9]{20}";
+        String regrexIban2 = "es[0-9]{2} - es[0-9]{2} - es[0-9]{4} - es[0-9]{4} - es[0-9]{2} - es[0-9]{6}";
+        String regrexIban3 = "es[0-9]{2} - es[0-9]{2} - es[0-9]{4} - es[0-9]{4} - es[0-9]{2} - es[0-9]{6}";
+        return iban.toLowerCase().matches(regrexIban1 + "|" + regrexIban2 + "|" + regrexIban3);
     }
+    public static Boolean validarTelefono(String numero){
+        if (numero == null)
+            return null;
+        return numero.matches("(\\+34)? ?[679][0-9]{8}");
+    }
+
 }

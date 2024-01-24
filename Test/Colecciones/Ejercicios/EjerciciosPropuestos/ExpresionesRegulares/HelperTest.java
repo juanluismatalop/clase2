@@ -24,6 +24,5 @@ class HelperTest {
     @Test
     void validarIBAN() {
         assertNull(Helper.validarIBAN(null));
-        assertTrue(Helper.validarPasaporte("ES12345678901234567890"));
     }
 }

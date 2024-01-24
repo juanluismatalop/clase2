@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="11/1/24">
-      <change afterPath="$PROJECT_DIR$/Test/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/HelperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Stream/Ejemplo1.java" afterDir="false" />
+    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="23/1/24">
+      <change afterPath="$PROJECT_DIR$/src/ExperimentosJL/Contrasenna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExperimentosJL/TestContrasenna.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clase2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/HelperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/HelperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +21,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,28 +56,29 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnalisisDeDatos.executor": "Run",
-    "Application.ArraysExamen.executor": "Run",
-    "Application.TestAlumno.executor": "Run",
-    "Application.TestLibro.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.HelperTest.validarDNI.executor": "Run",
-    "JUnit.HelperTest.validarPasaporte.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/manana/Juan Luis/Clase2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnalisisDeDatos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysExamen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAlumno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLibro.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.HelperTest.validarDNI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelperTest.validarIBAN.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelperTest.validarPasaporte.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/manana/Juan Luis/Clase2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,13 +87,13 @@
       <recent name="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelperTest.validarIBAN">
-    <configuration name="AnalisisDeDatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.Array.AnalisisDeDatos" />
+  <component name="RunManager" selected="Application.TestContrasenna">
+    <configuration name="TestAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ColeccionesCasa.ExamenTarde.RelacionEjercicios.TestAlumno" />
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.Array.*" />
+          <option name="PATTERN" value="ColeccionesCasa.ExamenTarde.RelacionEjercicios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAlumno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ColeccionesCasa.ExamenTarde.RelacionEjercicios.TestAlumno" />
+    <configuration name="TestContrasenna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExperimentosJL.TestContrasenna" />
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ColeccionesCasa.ExamenTarde.RelacionEjercicios.*" />
+          <option name="PATTERN" value="ExperimentosJL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestContrasenna" />
         <item itemvalue="JUnit.HelperTest.validarIBAN" />
         <item itemvalue="JUnit.HelperTest.validarDNI" />
         <item itemvalue="JUnit.HelperTest.validarPasaporte" />
         <item itemvalue="Application.TestAlumno" />
-        <item itemvalue="Application.AnalisisDeDatos" />
       </list>
     </recent_temporary>
   </component>
@@ -227,13 +228,22 @@
       <option name="project" value="LOCAL" />
       <updated>1704979879102</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="23/1/24">
+      <option name="closed" value="true" />
+      <created>1706021088057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706021088057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="10/1/24" />
     <MESSAGE value="11/1/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/1/24" />
+    <MESSAGE value="23/1/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/1/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
