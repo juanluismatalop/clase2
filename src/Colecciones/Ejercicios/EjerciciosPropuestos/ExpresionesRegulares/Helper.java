@@ -26,5 +26,9 @@ public class Helper {
             return null;
         return numero.matches("(\\+34)? ?[679][0-9]{8}");
     }
-
+    public Boolean validarFecha (String fecha){
+        if(fecha == null)
+            return null;
+        return fecha.matches("[0-3][0-9]/[0-1][0-9]/[0-2][0-9]{3}");
+    }
 }
