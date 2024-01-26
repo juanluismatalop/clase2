@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="24/1/24" />
+    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="25/1/24">
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Claustro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Especialidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Personas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/ProfesorInterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/ProfesorTituliar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Profesores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -239,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706102566296</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="25/1/24">
+      <option name="closed" value="true" />
+      <created>1706187608996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706187608996</updated>
+    </task>
+    <task id="LOCAL-00009" summary="25/1/24">
+      <option name="closed" value="true" />
+      <created>1706189736389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706189736389</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,7 +271,8 @@
     <MESSAGE value="11/1/24" />
     <MESSAGE value="23/1/24" />
     <MESSAGE value="24/1/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="24/1/24" />
+    <MESSAGE value="25/1/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/1/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
