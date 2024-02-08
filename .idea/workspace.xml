@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="8/2/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Especialidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Ordenadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/SistemaOperativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/TipoFiguraPoligonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="24/1/24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clase2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -63,31 +53,30 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnalisisDeDatos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraysExamen.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAlumno.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestContrasenna.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TestLibro.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.HelperTest.validarDNI.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelperTest.validarIBAN.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelperTest.validarPasaporte.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/manana/Juan Luis/Clase2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnalisisDeDatos.executor": "Run",
+    "Application.ArraysExamen.executor": "Run",
+    "Application.TestAlumno.executor": "Run",
+    "Application.TestContrasenna.executor": "Run",
+    "Application.TestLibro.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.HelperTest.validarDNI.executor": "Run",
+    "JUnit.HelperTest.validarIBAN.executor": "Run",
+    "JUnit.HelperTest.validarPasaporte.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/manana/Juan Luis/Clase2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -184,8 +173,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-ab7203c4" />
-        <option value="jdk-17.0.10-liberica-17.0.10-3183f394aec4-3b039995" />
         <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-9b5c8e75" />
       </set>
     </attachedChunks>
@@ -263,8 +250,7 @@
     <MESSAGE value="11/1/24" />
     <MESSAGE value="23/1/24" />
     <MESSAGE value="24/1/24" />
-    <MESSAGE value="8/2/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/2/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="24/1/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
