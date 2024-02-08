@@ -1,0 +1,5 @@
+8/2/24
+Para la herencia usamos "extends"
+Para la interfaces usamos "implements"
+Para una clase con un metodo abstracto pasa a ser una clase abstracta
+No se puede instanciar un objeto de una clase abstracta
