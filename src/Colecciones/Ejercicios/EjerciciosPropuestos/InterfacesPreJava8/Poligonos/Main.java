@@ -1,5 +1,7 @@
 package Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos;
 
+import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.FigurasCirculares.Circulo;
+import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.FigurasCirculares.FiguraCircular;
 import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.PoligonosRegulares.Cuadrado;
 import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.PoligonosRegulares.FiguraRegular;
 import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.PoligonosRegulares.Pentagono;
@@ -17,5 +19,7 @@ public class Main {
         System.out.println(pentagono1.obtenerInformacion());
         TriangulosIrregular trianguloI = new TrianguloIsosceles(2.0,2.0,4.0);
         System.out.println(trianguloI.obtenerInformacion());
+        FiguraCircular circulo1 = new Circulo(5);
+        System.out.println(circulo1.obtenerInformacion());
     }
 }

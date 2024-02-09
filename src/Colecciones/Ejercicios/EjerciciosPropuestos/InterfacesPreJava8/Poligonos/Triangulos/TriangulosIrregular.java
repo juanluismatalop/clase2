@@ -1,7 +1,6 @@
 package Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Triangulos;
 
 import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Figura;
-import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.PoligonosRegulares.FiguraRegular;
 import Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.TipoFigura;
 
 public class TriangulosIrregular implements Figura {
@@ -58,17 +57,17 @@ public class TriangulosIrregular implements Figura {
 
     @Override
     public  double calcularArea(){
-        double semiPerimetro = calcularPerimetro()/2;
+        double semiPerimetro = calcularPerimetro() / 2.0;
         return Math.sqrt(semiPerimetro * (semiPerimetro - lado1) * (semiPerimetro - lado2) * (semiPerimetro - lado3));
     }
 
     @Override
-    public String obtenerInformacion() {
-        return String.format("%s %s con numero de lados %d%n" +
+    public StringBuilder obtenerInformacion() {
+        return new StringBuilder(String.format("%s %s con numero de lados %d%n" +
                 "lado 1 = %.2f %n" +
                 "lado 2 = %.2f %n" +
                 "lado 3 = %.2f %n" +
                 "Tiene un area de %.2f%n" +
-                "perimetro de %.2f%n%n",tipoFigura,trianguloIrregular,tipoFigura.getNumeroLados(),lado1,lado2,lado3,calcularArea(),calcularPerimetro());
+                "perimetro de %.2f%n%n", tipoFigura, trianguloIrregular, tipoFigura.getNumeroLados(), lado1, lado2, lado3, calcularArea(), calcularPerimetro()));
     }
 }

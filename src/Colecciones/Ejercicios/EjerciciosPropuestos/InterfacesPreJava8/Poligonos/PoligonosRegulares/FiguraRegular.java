@@ -29,10 +29,10 @@ public abstract class FiguraRegular implements Figura {
     public abstract double calcularArea();
 
     @Override
-    public String obtenerInformacion() {
-        return String.format("%s con numero de lados %d%n" +
+    public StringBuilder obtenerInformacion() {
+        return new StringBuilder(String.format("%s con numero de lados %d%n" +
                 "longitud de lado %.2f %n" +
                 "Tiene un area de %.2f%n" +
-                "perimetro de %.2f%n%n",tipoFiguraPoligonal,tipoFiguraPoligonal.getNumeroLados(),longitudLado,calcularArea(),calcularPerimetro());
+                "perimetro de %.2f%n%n", tipoFiguraPoligonal, tipoFiguraPoligonal.getNumeroLados(), longitudLado, calcularArea(), calcularPerimetro()));
     }
 }
