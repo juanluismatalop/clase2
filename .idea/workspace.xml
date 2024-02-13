@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="9/2/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/FiguraRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/TrianguloRectangulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
