@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="13/2/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio1/ArrayReales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio1/Estadisticas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/compare/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/compare/Persona.java" afterDir="false" />
+    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="25/1/24">
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/CuentaCorriente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/TipoTransaccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Poligono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -63,9 +65,8 @@
   "keyToString": {
     "Application.AnalisisDeDatos.executor": "Run",
     "Application.ArraysExamen.executor": "Run",
-    "Application.Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Main.executor": "Run",
-    "Application.Colecciones.Ejercicios.compare.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TestAlumno.executor": "Run",
     "Application.TestContrasenna.executor": "Run",
     "Application.TestLibro.executor": "Run",
@@ -83,53 +84,37 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/manana/Juan Luis/Clase2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Colecciones.Ejercicios.compare" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Colecciones.Ejercicios.compare.Main">
-    <configuration name="Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Main" />
-      <module name="Clase2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Colecciones.Ejercicios.compare.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.compare.Main" />
-      <module name="Clase2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.compare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.FiguraRegulares.Main" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjercicioPolimorfismo.Ejercicio2.Main" />
       <module name="Clase2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.FiguraRegulares.*" />
+          <option name="PATTERN" value="Colecciones.Ejercicios.EjercicioPolimorfismo.Ejercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExperimentosJL.Test" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExperimentosJL.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,6 +131,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelperTest.validarDNI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares" />
+      <option name="MAIN_CLASS_NAME" value="Colecciones.Ejercicios.EjerciciosPropuestos.ExpresionesRegulares.HelperTest" />
+      <option name="METHOD_NAME" value="validarDNI" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,20 +169,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Colecciones.Ejercicios.compare.Main" />
-        <item itemvalue="Application.Colecciones.Ejercicios.EjerciciosPropuestos.InterfacesPreJava8.Poligonos.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestContrasenna" />
         <item itemvalue="JUnit.HelperTest.validarIBAN" />
+        <item itemvalue="JUnit.HelperTest.validarDNI" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-ab7203c4" />
-        <option value="jdk-17.0.10-liberica-17.0.10-3183f394aec4-3b039995" />
-        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-9b5c8e75" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.10-liberica-17.0.10-f644763e9732-a17f2992" />
       </set>
     </attachedChunks>
   </component>
@@ -250,39 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706102566296</updated>
     </task>
-    <task id="LOCAL-00008" summary="8/2/24">
+    <task id="LOCAL-00008" summary="25/1/24">
       <option name="closed" value="true" />
-      <created>1707394387641</created>
+      <created>1706187608996</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1707394387641</updated>
+      <updated>1706187608996</updated>
     </task>
-    <task id="LOCAL-00009" summary="8/2/24">
+    <task id="LOCAL-00009" summary="25/1/24">
       <option name="closed" value="true" />
-      <created>1707403366436</created>
+      <created>1706189736389</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1707403366436</updated>
+      <updated>1706189736389</updated>
     </task>
-    <task id="LOCAL-00010" summary="9/2/24">
-      <option name="closed" value="true" />
-      <created>1707470896852</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1707470896852</updated>
-    </task>
-    <task id="LOCAL-00011" summary="13/2/24">
-      <option name="closed" value="true" />
-      <created>1707828558219</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1707828558219</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -290,10 +274,8 @@
     <MESSAGE value="11/1/24" />
     <MESSAGE value="23/1/24" />
     <MESSAGE value="24/1/24" />
-    <MESSAGE value="8/2/24" />
-    <MESSAGE value="9/2/24" />
-    <MESSAGE value="13/2/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="13/2/24" />
+    <MESSAGE value="25/1/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/1/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
