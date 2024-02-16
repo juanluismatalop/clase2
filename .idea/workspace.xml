@@ -4,16 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="25/1/24">
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjercicioPolimorfismo/Ejercicio2/TipoTransaccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Poligono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="afb32fc3-81e8-4e8f-9696-b3b059a06cd5" name="Changes" comment="15/2/24">
+      <change afterPath="$PROJECT_DIR$/src/Genericos/teoria/Generico1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Genericos/teoria/Generico2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Genericos/teoria/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Array/AnalisisDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/AnalisisDeDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Array/EjemploFechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/EjemploFechas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/ExpresionesRegulares/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExpresionesRegulares/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Cuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Poligono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Poligono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Herencias/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Vehiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figura/Cuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figura/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/FiguraRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figura/FiguraRegular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesJava8y9/Figura/TrianguloRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Figura/TrianguloRectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Figura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Figura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FiguraCuadraticaIrregulares/FiguraCuadratica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FiguraCuadraticaIrregulares/FiguraCuadratica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FiguraCuadraticaIrregulares/Rectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FiguraCuadraticaIrregulares/Rectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FiguraCuadraticaIrregulares/Rombo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FiguraCuadraticaIrregulares/Rombo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FiguraCuadraticaIrregulares/TipoFiguraCuadratica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FiguraCuadraticaIrregulares/TipoFiguraCuadratica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FiguraCuadraticaIrregulares/Trapecio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FiguraCuadraticaIrregulares/Trapecio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FigurasCirculares/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FigurasCirculares/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FigurasCirculares/Elipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FigurasCirculares/Elipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/FigurasCirculares/FiguraCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/FigurasCirculares/FiguraCircular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/PoligonosRegulares/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/PoligonosRegulares/Cuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/PoligonosRegulares/FiguraRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/PoligonosRegulares/FiguraRegular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/PoligonosRegulares/Pentagono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/PoligonosRegulares/Pentagono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/PoligonosRegulares/TrianguloEquilatero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/PoligonosRegulares/TrianguloEquilatero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/TipoFigura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/TipoFigura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Triangulos/TipoTrianguloIrregular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Triangulos/TipoTrianguloIrregular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Triangulos/TrianguloEscaleno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Triangulos/TrianguloEscaleno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Triangulos/TrianguloIsosceles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Triangulos/TrianguloIsosceles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Triangulos/TrianguloRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Triangulos/TrianguloRectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/InterfacesPreJava8/Poligonos/Triangulos/TriangulosIrregular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Poligonos/Triangulos/TriangulosIrregular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/EjerciciosPropuestos/Stream/Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/Ejemplo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/compare/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compare/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colecciones/Ejercicios/compare/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/compare/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Diccionario/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diccionario/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Diccionario/Instituto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Diccionario/Instituto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Claustro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Claustro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Especialidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Especialidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Personas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Personas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/ProfesorInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/ProfesorInterno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/ProfesorTituliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/ProfesorTituliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Herencias/Profesores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Herencias/Profesores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instituto/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto/Instituto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instituto/Instituto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Instituto/TestAlumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instituto/TestAlumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ColeccionesCasa/ExamenTarde/RelacionEjercicios/Regex/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Regex/Helper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,32 +102,32 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnalisisDeDatos.executor": "Run",
-    "Application.ArraysExamen.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestAlumno.executor": "Run",
-    "Application.TestContrasenna.executor": "Run",
-    "Application.TestLibro.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.HelperTest.validarDNI.executor": "Run",
-    "JUnit.HelperTest.validarIBAN.executor": "Run",
-    "JUnit.HelperTest.validarPasaporte.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/manana/Juan Luis/Clase2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnalisisDeDatos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraysExamen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAlumno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestContrasenna.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestLibro.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.HelperTest.validarDNI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelperTest.validarIBAN.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelperTest.validarPasaporte.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/manana/Juan Luis/Clase2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -266,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706189736389</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="15/2/24">
+      <option name="closed" value="true" />
+      <created>1708004261499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708004261499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,7 +324,8 @@
     <MESSAGE value="23/1/24" />
     <MESSAGE value="24/1/24" />
     <MESSAGE value="25/1/24" />
-    <option name="LAST_COMMIT_MESSAGE" value="25/1/24" />
+    <MESSAGE value="15/2/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="15/2/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
