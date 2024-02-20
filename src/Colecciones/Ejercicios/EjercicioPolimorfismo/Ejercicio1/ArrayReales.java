@@ -1,5 +1,7 @@
 package Colecciones.Ejercicios.EjercicioPolimorfismo.Ejercicio1;
 
+import java.util.Arrays;
+
 public class ArrayReales implements Estadisticas{
     private double[] numeros;
 
@@ -23,21 +25,26 @@ public class ArrayReales implements Estadisticas{
 
     @Override
     public double obtenerValorMaximo() {
-        return 0;
+        return numeros[numeros.length - 1];
     }
 
     @Override
     public double calcularSuma() {
-        return 0;
+        return Arrays.stream(numeros).sum();
     }
 
     @Override
     public double calcularValorMedio() {
-        return 0;
+        return calcularSuma()/obtenerNumeroValores();
+
+        //return Arrays.stream(numeros).average().getAsDouble();
     }
 
     @Override
     public double calcularDesviacionTipica() {
-        return 0;
+        double valorMedio = calcularValorMedio();
+        double suma = 0.0;
+
+        return
     }
 }

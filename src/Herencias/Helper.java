@@ -1,4 +1,4 @@
-package Colecciones.Ejercicios.EjerciciosPropuestos.Herencias;
+package Herencias;
 
 public class Helper extends Ordenadores{
     public Helper(int numeroSerie, SistemaOperativo sistemaOperativo, int ram, String procesadores) {

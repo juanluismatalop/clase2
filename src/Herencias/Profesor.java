@@ -1,4 +1,4 @@
-package Colecciones.Ejercicios.EjerciciosPropuestos.Herencias;
+package Herencias;
 
 public class Profesor extends Persona{
     private Especialidad especialidad;

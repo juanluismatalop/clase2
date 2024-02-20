@@ -1,4 +1,4 @@
-package Colecciones.Ejercicios.EjerciciosPropuestos.Herencias;
+package Herencias;
 
 public class Persona {
     private String nombreCompleato;
