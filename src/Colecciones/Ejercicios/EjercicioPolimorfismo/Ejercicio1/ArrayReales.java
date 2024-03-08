@@ -45,6 +45,6 @@ public class ArrayReales implements Estadisticas{
         double valorMedio = calcularValorMedio();
         double suma = 0.0;
 
-        return
+        return 0.0;
     }
 }
